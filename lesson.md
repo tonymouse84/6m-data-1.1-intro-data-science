@@ -67,32 +67,6 @@ Explain the difference between Data Analytics, Data Science, and Artificial Inte
 
 </details>
 
-2. **The Python Peek (Code Demo):** Run the following code in Colab and observe the difference between reporting and modelling:
-
-```python
-# How we see data vs how the computer sees it
-import pandas as pd
-
-# A simple 'Historical' dataset (Analytics)
-data = {'Month': ['Jan', 'Feb'], 'Sales': [100, 150]}
-df = pd.DataFrame(data)
-print("Analytics: What happened?")
-print(df)
-
-# Predicting (Data Science)
-# Calculate the month-over-month growth rate
-# Sales for Jan: df['Sales'].iloc[0]
-# Sales for Feb: df['Sales'].iloc[1]
-
-growth_rate = (df['Sales'].iloc[1] - df['Sales'].iloc[0]) / df['Sales'].iloc[0]
-print(f"Month-over-month growth rate: {growth_rate:.2%}")
-
-# Predict next month's sales (March) based on February's sales and the growth rate
-predicted_sales_march = df['Sales'].iloc[1] * (1 + growth_rate)
-
-print(f"\nPredicted sales for March: {predicted_sales_march:.2f}")
-```
-
 ### 💬 Q&A & Reflection (10 min)
 
 - Does AI replace Data Science — or depend on it?
