@@ -14,7 +14,7 @@ Break into small groups and answer the following. Use your knowledge of Structur
 
 * **Explicit Data (Things you click):** (e.g., Thumbs up/down...)  
 * **Implicit Data (Things you do):** (e.g., Did you pause at a scary scene? Did you binge-watch 5 episodes?)
-
+# Doing Assignment
 ### **Part 2: Structured vs. Unstructured**
 
 * **Structured Data:** User ID, Movie Genre, Release Year.  
